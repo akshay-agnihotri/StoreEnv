@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Twitter, Mail, Loader2 } from 'lucide-react';
  
-interface AuthButtonProps {
+interface AuthButtonProps { 
   provider: string;
   onClick: () => void;
   isLoading?: boolean;
