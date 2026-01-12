@@ -15,7 +15,7 @@ interface Provider {
 }
 
 const getProviderIcon = (provider: string) => {
-  switch (provider.toLowerCase()) {
+  switch (provider.toLowerCase()) { 
     case 'github':
       return <Github size={20} />;
     case 'twitter':
