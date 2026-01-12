@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"; 
 import { motion, AnimatePresence } from "framer-motion";
 import { Home, User, Settings, Menu, X, LogOut, Sun, Moon } from "lucide-react";
 import { redirect, usePathname } from "next/navigation";
