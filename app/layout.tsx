@@ -28,7 +28,7 @@ export default function RootLayout({
           </Suspense>
           <Footer />
         </body>
-      </html>
+      </html> 
     </AuthProvider>
   );
 }
