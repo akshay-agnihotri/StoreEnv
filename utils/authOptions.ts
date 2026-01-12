@@ -1,5 +1,5 @@
 import { NextAuthOptions, User as NextAuthUser } from "next-auth";
-import connectDB from "@/config/database";
+import connectDB from "@/config/database"; 
 import GoogleProvider from "next-auth/providers/google";
 import GitHubProvider from "next-auth/providers/github";
 import User from "@/models/user.model";
